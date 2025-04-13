@@ -6,6 +6,7 @@ import BrandSlider from "@/components/brand-slider"
 import Newsletter from "@/components/newsletter"
 import CategoriesDropdown from "@/components/categories-dropdown"
 import HeroCarousel from "@/components/hero-carousel"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -85,18 +86,18 @@ export default function Home() {
             <CategoriesDropdown />
 
             <nav className="hidden md:flex items-center gap-6">
-              <a href="#" className="text-sm font-medium hover:text-blue-600">
+            <Link href="#" className="text-sm font-medium hover:text-blue-600">
                 Home
-              </a>
-              <a href="#" className="text-sm font-medium hover:text-blue-600 flex items-center">
+              </Link>
+            <Link href="#" className="text-sm font-medium hover:text-blue-600 flex items-center">
                 Shop <ChevronDown className="ml-1 h-3 w-3" />
-              </a>
-              <a href="#" className="text-sm font-medium hover:text-blue-600 flex items-center">
+              </Link>
+            <Link href="#" className="text-sm font-medium hover:text-blue-600 flex items-center">
                 Eyeglasses <ChevronDown className="ml-1 h-3 w-3" />
-              </a>
-              <a href="#" className="text-sm font-medium hover:text-blue-600">
+              </Link>
+            <Link href="#" className="text-sm font-medium hover:text-blue-600">
                 About Us
-              </a>
+              </Link>
             </nav>
           </div>
 
@@ -314,12 +315,12 @@ export default function Home() {
               <ul className="space-y-2 text-sm text-gray-300">
                 <li>
                   <a href="#" className="hover:text-white">
-                    Men's Eyeglasses
+                  Men&apos;s Eyeglasses
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-white">
-                    Women's Eyeglasses
+                    Women&apos;s Eyeglasses
                   </a>
                 </li>
                 <li>
